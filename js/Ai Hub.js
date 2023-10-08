@@ -160,10 +160,17 @@ const card = async (data, models) => {
 
                               </div>
                               <div class="d-flex justify-content-between align-items-center gap-2 fw-bold p-2">
-                                  <div id="modal-feature-list${data?.id}">
+                                <div class="d-flex flex-column justify-content-between align-items-start ">
+                                <h5 class="fw-bold">Features</h5>
+                                  <ul id="modal-feature-list${data?.id}">
                                     
+                                  </ul>
                                   </div>
-                                   <div id="modal-integrations-list${data?.id}">
+                                <div class="d-flex flex-column ">
+                                <h5 class="fw-bold">Integrations</h5>
+
+                                   <ul id="modal-integrations-list${data?.id}">
+                                   </ul>
                                    </div>
                               </div>
 
