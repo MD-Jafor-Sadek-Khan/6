@@ -1,0 +1,52 @@
+/* card css  */
+.individual-card
+{
+    border-radius: 20px;
+    /* background-image: url('https://th.bing.com/th/id/R.68f215cfc724691d870dffcfd16cfe19?rik=pu3yBzVJxU1SRQ&pid=ImgRaw&r=0');
+    background-repeat: round; */
+    /* color: white; */
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+.individual-card-img
+{
+    /* border: 1px solid rgb(110, 166, 255); */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.small-text
+{
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    /* color: lightgray; */
+}
+
+.date-text
+{
+    /* color: lightgray; */
+    font-size: 14px;
+
+}
+
+.fa-calendar-days
+{
+ opacity: 80%;   
+}
+
+
+/* modal  */
+
+
+.custom-modal-dialog {
+    max-width: 60%;
+    max-height: max-content !important;
+}
+
+.accuracy-text
+{
+    font-size: 12px;
+    margin: 0 4px;
+    font-weight: 900;
+}
